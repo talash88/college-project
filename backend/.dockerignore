@@ -1,0 +1,37 @@
+# Build context is the repository root (same as backend/Dockerfile).
+# Never bake secrets or the 256 MB gitignored classifier weights into the image.
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+campusxolve_ai.egg-info/
+*.egg-info/
+
+# Local-only runtime state
+backend/.env
+backend/storage/problem-attachments/*
+!backend/storage/problem-attachments/.gitkeep
+backend/.cache/
+
+# Gitignored large classifier weights: provided at deploy time
+# (volume mount for local prod; training step for cloud) — see
+# docs/STEP_17_DEPLOYMENT.md. Tracked tokenizer/config still copy in.
+backend/ml/artifacts/**/model.safetensors
+backend/ml/artifacts/**/*.bin
+backend/ml/artifacts/**/checkpoint-*/
+backend/ml/artifacts/**/runs/
+
+# Dev/test sources not needed at runtime
+backend/tests/
+backend/stubs/
+backend/scripts/
+!backend/scripts/start_production.sh
+
+# Frontend sources (separate image) and docs
+frontend/
+docs/
+.git/
+.github/
+*.log
+.DS_Store

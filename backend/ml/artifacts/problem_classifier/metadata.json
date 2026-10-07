@@ -1,0 +1,106 @@
+{
+  "model_name": "campusxolve-problem-classifier",
+  "model_version": "campusxolve-problem-classifier-v1",
+  "base_model": "distilbert-base-uncased",
+  "trained_at": "2026-09-26T14:53:43.465274+00:00",
+  "dataset_version": "problem_classification_v1",
+  "dataset_file": "ml/data/problem_classification_v1.jsonl",
+  "train_samples": 201,
+  "val_samples": 43,
+  "test_samples": 44,
+  "seed": 42,
+  "device": "mps",
+  "training_seconds": 21.0,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 2.4914,
+      "val_macro_f1": 0.0653,
+      "val_accuracy": 0.1395
+    },
+    {
+      "epoch": 2,
+      "train_loss": 2.4477,
+      "val_macro_f1": 0.1936,
+      "val_accuracy": 0.2791
+    },
+    {
+      "epoch": 3,
+      "train_loss": 2.3462,
+      "val_macro_f1": 0.2514,
+      "val_accuracy": 0.3023
+    },
+    {
+      "epoch": 4,
+      "train_loss": 2.1532,
+      "val_macro_f1": 0.4477,
+      "val_accuracy": 0.4884
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.9556,
+      "val_macro_f1": 0.4987,
+      "val_accuracy": 0.5581
+    },
+    {
+      "epoch": 6,
+      "train_loss": 1.7085,
+      "val_macro_f1": 0.5772,
+      "val_accuracy": 0.6047
+    },
+    {
+      "epoch": 7,
+      "train_loss": 1.491,
+      "val_macro_f1": 0.5288,
+      "val_accuracy": 0.5581
+    },
+    {
+      "epoch": 8,
+      "train_loss": 1.3044,
+      "val_macro_f1": 0.6284,
+      "val_accuracy": 0.6512
+    },
+    {
+      "epoch": 9,
+      "train_loss": 1.1408,
+      "val_macro_f1": 0.5592,
+      "val_accuracy": 0.6047
+    },
+    {
+      "epoch": 10,
+      "train_loss": 1.0302,
+      "val_macro_f1": 0.6203,
+      "val_accuracy": 0.6512
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.9453,
+      "val_macro_f1": 0.6443,
+      "val_accuracy": 0.6512
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.8982,
+      "val_macro_f1": 0.5999,
+      "val_accuracy": 0.6279
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.8847,
+      "val_macro_f1": 0.6253,
+      "val_accuracy": 0.6512
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.865,
+      "val_macro_f1": 0.5999,
+      "val_accuracy": 0.6279
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.8532,
+      "val_macro_f1": 0.5999,
+      "val_accuracy": 0.6279
+    }
+  ]
+}

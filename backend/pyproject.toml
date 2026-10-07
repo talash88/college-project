@@ -1,0 +1,117 @@
+[project]
+name = "campusxolve-ai"
+version = "0.1.0"
+description = "CampusXolve AI - AI-Powered Campus Problem Solving"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.109.0",
+    "uvicorn[standard]>=0.27.0",
+    "pydantic>=2.5.0",
+    "pydantic-settings>=2.1.0",
+    "sqlalchemy>=2.0.0",
+    "alembic>=1.13.0",
+    "asyncpg>=0.29.0",
+    "psycopg2-binary>=2.9.9",
+    "python-dotenv>=1.0.0",
+    "PyJWT>=2.8.0",
+    "bcrypt>=4.0.1",
+    "httpx>=0.26.0",
+    "python-multipart>=0.0.18",
+    "torch>=2.0.0",
+    "transformers>=4.40.0",
+    "datasets>=2.18.0",
+    "scikit-learn>=1.4.0",
+    "accelerate>=0.29.0",
+    "sentence-transformers>=2.6.0",
+    "pgvector>=0.3.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-asyncio>=0.23.0",
+    "pytest-cov>=4.1.0",
+    "httpx>=0.26.0",
+    "ruff>=0.1.0",
+    "mypy>=1.8.0",
+]
+
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["app*"]
+exclude = ["tests*", "alembic*"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+select = ["E", "F", "I", "W", "UP", "B", "C4", "PT"]
+ignore = ["E501", "B008"]
+fixable = ["ALL"]
+unfixable = []
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+no_implicit_optional = true
+show_error_codes = true
+pretty = true
+exclude = ["site-packages"]
+ignore_missing_imports = true
+# Local stub shims (stubs/) for heavy data libs whose shipped stubs require
+# newer Python syntax; our code stays strictly checked, their APIs are Any.
+mypy_path = ["stubs"]
+
+# Heavy ML/data libraries ship stubs using newer syntax than our 3.11
+# target; skip following into their internals (our code stays strictly
+# checked, third-party calls become Any at the boundary).
+[[tool.mypy.overrides]]
+module = [
+    "torch",
+    "torch.*",
+    "transformers",
+    "transformers.*",
+    "sentence_transformers",
+    "sentence_transformers.*",
+    "datasets",
+    "datasets.*",
+    "sklearn",
+    "sklearn.*",
+    "scipy",
+    "scipy.*",
+    "numpy",
+    "numpy.*",
+    "pandas",
+    "pandas.*",
+    "accelerate",
+    "accelerate.*",
+    "huggingface_hub",
+    "huggingface_hub.*",
+    "safetensors",
+    "safetensors.*",
+    "tokenizers",
+    "tokenizers.*",
+]
+follow_imports = "skip"
+ignore_errors = true
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short"

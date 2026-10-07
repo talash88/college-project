@@ -1,0 +1,288 @@
+{"text": "The WiFi in the computer lab keeps disconnecting every few minutes and students cannot access the internet.", "label": "IT_NETWORK"}
+{"text": "Internet speed in the hostel block is extremely slow since last week, pages take forever to load.", "label": "IT_NETWORK"}
+{"text": "Lab computers are not connecting to the campus network, all systems show no internet access.", "label": "IT_NETWORK"}
+{"text": "The department printer is offline and nobody is able to print project reports over the network.", "label": "IT_NETWORK"}
+{"text": "Classroom projector is not detecting faculty laptops, the HDMI connection seems dead.", "label": "IT_NETWORK"}
+{"text": "Student portal login is failing with an invalid credentials error even though the password is correct.", "label": "IT_NETWORK"}
+{"text": "The ERP attendance portal has been down since morning, faculty cannot mark attendance.", "label": "IT_NETWORK"}
+{"text": "Official college email accounts are not receiving mails from the university.", "label": "IT_NETWORK"}
+{"text": "LAN ports in the seminar hall are not working, guests could not connect their devices.", "label": "IT_NETWORK"}
+{"text": "wifi bahut slow chal raha hai, online class attend nahi ho pa rahi hai.", "label": "IT_NETWORK"}
+{"text": "Computer systems in lab 3 are extremely slow and hang while running basic programming tools.", "label": "IT_NETWORK"}
+{"text": "Request to install Python and required libraries on all first-year lab computers.", "label": "IT_NETWORK"}
+{"text": "Antivirus warnings keep popping up on library computers, many systems appear infected.", "label": "IT_NETWORK"}
+{"text": "The digital notice board near the main gate has been blank for three days.", "label": "IT_NETWORK"}
+{"text": "Online examination portal crashed in the middle of our internal assessment test.", "label": "IT_NETWORK"}
+{"text": "Forgot WiFi password reset process is unclear, please share how to regenerate credentials.", "label": "IT_NETWORK"}
+{"text": "Video conferencing in the conference room keeps freezing during guest lectures.", "label": "IT_NETWORK"}
+{"text": "The computer centre server room air conditioning failure is causing repeated system shutdowns.", "label": "IT_NETWORK"}
+{"text": "Semester registration page throws a server error after submitting the form.", "label": "IT_NETWORK"}
+{"text": "Project lab workstations need Ubuntu dual-boot setup for the Linux programming course.", "label": "IT_NETWORK"}
+{"text": "Plagiarism checking tool login is not working for final year project report submission.", "label": "IT_NETWORK"}
+{"text": "Smart classroom touch panel is unresponsive, teachers cannot switch input sources.", "label": "IT_NETWORK"}
+{"text": "Hostel block D has no WiFi coverage on the top floor, request additional access points.", "label": "IT_NETWORK"}
+{"text": "The programming lab mouse and keyboards are missing from several systems.", "label": "IT_NETWORK"}
+{"text": "One of the corridor tube lights near classroom 204 is sparking and making a buzzing sound.", "label": "ELECTRICAL"}
+{"text": "Ceiling fan in room 312 is not working, students are struggling in this heat.", "label": "ELECTRICAL"}
+{"text": "There has been no power supply in the mechanical block since yesterday evening.", "label": "ELECTRICAL"}
+{"text": "Wall sockets in the electronics laboratory are dead, experiments cannot be conducted.", "label": "ELECTRICAL"}
+{"text": "The MCB keeps tripping whenever lab equipment is switched on in the physics lab.", "label": "ELECTRICAL"}
+{"text": "Corridor lights on the second floor of the academic block stay off at night.", "label": "ELECTRICAL"}
+{"text": "Fan regulator in classroom 105 is broken, the fan runs only at full speed.", "label": "ELECTRICAL"}
+{"text": "Air conditioner in the seminar hall is not cooling at all.", "label": "ELECTRICAL"}
+{"text": "Streetlights along the hostel road are fused, the whole stretch is dark after sunset.", "label": "ELECTRICAL"}
+{"text": "light nahi aa rahi hai hostel ke mere room me, kal se problem hai.", "label": "ELECTRICAL"}
+{"text": "Power backup generator did not start during yesterday's outage in the exam hall.", "label": "ELECTRICAL"}
+{"text": "Switchboard in the chemistry lab is sparking when plugs are inserted.", "label": "ELECTRICAL"}
+{"text": "The auditorium stage lights are flickering during cultural event rehearsals.", "label": "ELECTRICAL"}
+{"text": "Water cooler compressor keeps tripping the circuit breaker in the canteen area.", "label": "ELECTRICAL"}
+{"text": "Lift in the administrative building is stuck between floors due to a power fault.", "label": "ELECTRICAL"}
+{"text": "Exposed electrical wiring near the workshop entrance is a serious hazard.", "label": "ELECTRICAL"}
+{"text": "Table fans provided in the drawing hall are all damaged and unsafe to use.", "label": "ELECTRICAL"}
+{"text": "Voltage fluctuation in the girls hostel is damaging phone chargers and laptops.", "label": "ELECTRICAL"}
+{"text": "The main gate floodlight has not been working for over a month.", "label": "ELECTRICAL"}
+{"text": "Extension boards in the computer centre are overheating and smell of burnt plastic.", "label": "ELECTRICAL"}
+{"text": "Projector power cable in classroom 207 is damaged and needs replacement.", "label": "ELECTRICAL"}
+{"text": "Emergency lights in the hostel corridors do not turn on during power cuts.", "label": "ELECTRICAL"}
+{"text": "The exhaust fan in the chemistry laboratory fume hood has stopped working.", "label": "ELECTRICAL"}
+{"text": "Canteen refrigerator keeps switching off, food stored inside is getting spoilt.", "label": "ELECTRICAL"}
+{"text": "There is a large pothole on the main road near the college entrance gate.", "label": "INFRASTRUCTURE"}
+{"text": "Roof of classroom 110 leaks badly whenever it rains, benches get completely wet.", "label": "INFRASTRUCTURE"}
+{"text": "Plaster is falling off the walls in the old academic block corridor.", "label": "INFRASTRUCTURE"}
+{"text": "The staircase railing on the second floor is loose and wobbles dangerously.", "label": "INFRASTRUCTURE"}
+{"text": "Several classroom doors do not lock, and window panes are cracked.", "label": "INFRASTRUCTURE"}
+{"text": "Floor tiles in the canteen area are broken and students keep tripping.", "label": "INFRASTRUCTURE"}
+{"text": "Playground basketball court surface is damaged with cracks all over.", "label": "INFRASTRUCTURE"}
+{"text": "A section of the boundary wall behind the hostel has collapsed.", "label": "INFRASTRUCTURE"}
+{"text": "Parking shed roof sheets are bent and leak during rain, bikes get soaked.", "label": "INFRASTRUCTURE"}
+{"text": "college ke main gate ka road bahut kharab hai, barish me paani bhar jata hai.", "label": "INFRASTRUCTURE"}
+{"text": "Auditorium seats are torn and several are broken, uncomfortable during events.", "label": "INFRASTRUCTURE"}
+{"text": "The ramp for differently-abled students near the library is too steep and unsafe.", "label": "INFRASTRUCTURE"}
+{"text": "Drainage near the workshop overflows during heavy rain and floods the passage.", "label": "INFRASTRUCTURE"}
+{"text": "Washroom taps and flush tanks in the first-year block are broken.", "label": "INFRASTRUCTURE"}
+{"text": "The college main gate shutter gets stuck and causes long queues in the morning.", "label": "INFRASTRUCTURE"}
+{"text": "Benches in the botanical garden are broken and covered in rust.", "label": "INFRASTRUCTURE"}
+{"text": "Ceiling of the girls common room shows damp patches and paint peeling.", "label": "INFRASTRUCTURE"}
+{"text": "The cycle stand near the canteen is overcrowded and poorly maintained.", "label": "INFRASTRUCTURE"}
+{"text": "Cracks have developed in the hostel building walls after the recent tremors.", "label": "INFRASTRUCTURE"}
+{"text": "Drinking water pipeline near the playground is leaking and wasting water.", "label": "INFRASTRUCTURE"}
+{"text": "The footpath from the bus stop to the campus gate is uneven and muddy.", "label": "INFRASTRUCTURE"}
+{"text": "Window grills in the ground floor classrooms are rusted and coming loose.", "label": "INFRASTRUCTURE"}
+{"text": "The open-air theatre steps are chipped and need urgent repair.", "label": "INFRASTRUCTURE"}
+{"text": "Notice boards in the department corridors are broken and notices keep falling.", "label": "INFRASTRUCTURE"}
+{"text": "Garbage has been piling up behind the canteen for several days and smells awful.", "label": "CLEANLINESS_SANITATION"}
+{"text": "Washrooms on the third floor are extremely dirty and never cleaned on time.", "label": "CLEANLINESS_SANITATION"}
+{"text": "Classrooms are not swept daily, dust accumulates on benches and floors.", "label": "CLEANLINESS_SANITATION"}
+{"text": "Dustbins in the corridors are overflowing with waste spilling around them.", "label": "CLEANLINESS_SANITATION"}
+{"text": "Foul smell comes from the washrooms near the auditorium throughout the day.", "label": "CLEANLINESS_SANITATION"}
+{"text": "Dead leaves and litter are scattered all over the hostel courtyard.", "label": "CLEANLINESS_SANITATION"}
+{"text": "Canteen tables are sticky and not wiped after meals, hygiene is very poor.", "label": "CLEANLINESS_SANITATION"}
+{"text": "washroom me safai nahi hoti, bahut gandagi hai, please dhyan dijiye.", "label": "CLEANLINESS_SANITATION"}
+{"text": "Rats have been spotted inside the hostel pantry at night.", "label": "CLEANLINESS_SANITATION"}
+{"text": "The area around drinking water coolers is always wet and slippery with dirt.", "label": "CLEANLINESS_SANITATION"}
+{"text": "Hostel bathrooms have moss growing on the floors and walls.", "label": "CLEANLINESS_SANITATION"}
+{"text": "Food waste is dumped openly near the mess back gate attracting stray animals.", "label": "CLEANLINESS_SANITATION"}
+{"text": "Spider webs hang in the corners of the lecture halls.", "label": "CLEANLINESS_SANITATION"}
+{"text": "The girls hostel corridor has not been mopped for over a week.", "label": "CLEANLINESS_SANITATION"}
+{"text": "Used plates pile up near the canteen counter during lunch hours.", "label": "CLEANLINESS_SANITATION"}
+{"text": "Sweepers do not come regularly to the staff quarters lane.", "label": "CLEANLINESS_SANITATION"}
+{"text": "The common room floor is stained and smells of spilt tea and food.", "label": "CLEANLINESS_SANITATION"}
+{"text": "Mosquitoes breed in stagnant water collected behind the workshop.", "label": "CLEANLINESS_SANITATION"}
+{"text": "Library washrooms run out of soap and tissue frequently.", "label": "CLEANLINESS_SANITATION"}
+{"text": "Construction debris is lying around the new block site creating dust everywhere.", "label": "CLEANLINESS_SANITATION"}
+{"text": "The bus stop shelter floor is littered with plastic bottles and wrappers.", "label": "CLEANLINESS_SANITATION"}
+{"text": "Cockroaches were found inside the hostel mess kitchen yesterday.", "label": "CLEANLINESS_SANITATION"}
+{"text": "Parking area is full of dry leaves and garbage that nobody clears.", "label": "CLEANLINESS_SANITATION"}
+{"text": "Broken glass pieces are scattered near the old laboratory building.", "label": "CLEANLINESS_SANITATION"}
+{"text": "There is no security guard at the main gate during night hours.", "label": "SAFETY_SECURITY"}
+{"text": "Unknown outsiders were seen roaming inside the campus in the evening.", "label": "SAFETY_SECURITY"}
+{"text": "CCTV cameras in the parking area are not working.", "label": "SAFETY_SECURITY"}
+{"text": "The stretch between the hostel and the academic block is completely dark at night.", "label": "SAFETY_SECURITY"}
+{"text": "Fire extinguishers in the chemistry block have expired and need refilling.", "label": "SAFETY_SECURITY"}
+{"text": "Emergency exit of the auditorium remains locked during events.", "label": "SAFETY_SECURITY"}
+{"text": "Stray dogs chase students near the canteen every evening.", "label": "SAFETY_SECURITY"}
+{"text": "My wallet was stolen from the hostel room while I was in class.", "label": "SAFETY_SECURITY"}
+{"text": "Seniors are forcing juniors to do their assignments, strict action is needed.", "label": "SAFETY_SECURITY"}
+{"text": "raat me campus me light nahi hoti, girls ko aane jaane me darr lagta hai.", "label": "SAFETY_SECURITY"}
+{"text": "First aid boxes in all laboratories are empty.", "label": "SAFETY_SECURITY"}
+{"text": "The back gate of the college stays open all day without any checking.", "label": "SAFETY_SECURITY"}
+{"text": "Broken boundary fencing allows anyone to enter from the playground side.", "label": "SAFETY_SECURITY"}
+{"text": "Speeding bikes inside campus endanger pedestrians near the library.", "label": "SAFETY_SECURITY"}
+{"text": "Safety goggles and gloves are missing in the workshop for first-year students.", "label": "SAFETY_SECURITY"}
+{"text": "A stranger was found taking photographs of hostel buildings yesterday.", "label": "SAFETY_SECURITY"}
+{"text": "The chemistry laboratory lacks proper fire safety signage.", "label": "SAFETY_SECURITY"}
+{"text": "Bicycles are frequently stolen from the cycle stand near the canteen.", "label": "SAFETY_SECURITY"}
+{"text": "Drunk outsiders created a disturbance near the boys hostel last weekend.", "label": "SAFETY_SECURITY"}
+{"text": "Emergency contact numbers are not displayed anywhere on campus.", "label": "SAFETY_SECURITY"}
+{"text": "The girls hostel warden is not reachable during emergencies at night.", "label": "SAFETY_SECURITY"}
+{"text": "Cracked glass panels in the corridor could fall and injure someone.", "label": "SAFETY_SECURITY"}
+{"text": "Snake was spotted near the hostel garden, need immediate pest control action.", "label": "SAFETY_SECURITY"}
+{"text": "Visitors are not asked to register at the gate anymore.", "label": "SAFETY_SECURITY"}
+{"text": "Half of the computers in the programming lab do not boot up.", "label": "LABORATORY"}
+{"text": "MATLAB software is not installed on any system in the simulation lab.", "label": "LABORATORY"}
+{"text": "Oscilloscopes in the electronics lab are faulty and give wrong readings.", "label": "LABORATORY"}
+{"text": "Required chemicals for titration experiments are out of stock in the chemistry lab.", "label": "LABORATORY"}
+{"text": "Lab assistant is rarely present during practical hours to guide students.", "label": "LABORATORY"}
+{"text": "Measuring instruments in the physics lab are uncalibrated and unreliable.", "label": "LABORATORY"}
+{"text": "The mechanical workshop lathe machine has been broken for a month.", "label": "LABORATORY"}
+{"text": "lab me apparatus tootey hue hain, experiment kaise karenge.", "label": "LABORATORY"}
+{"text": "Printers in the project lab are out of ink and nobody refills them.", "label": "LABORATORY"}
+{"text": "Laboratory manuals for the new syllabus have not been distributed yet.", "label": "LABORATORY"}
+{"text": "Stools in the chemistry laboratory are broken and unstable.", "label": "LABORATORY"}
+{"text": "The concrete testing machine in the civil lab gives inconsistent results.", "label": "LABORATORY"}
+{"text": "Protective aprons and safety gear are unavailable in the chemistry lab.", "label": "LABORATORY"}
+{"text": "Computer science project lab remains locked even during scheduled hours.", "label": "LABORATORY"}
+{"text": "Microscopes in the biology lab have blurred lenses and cannot be focused.", "label": "LABORATORY"}
+{"text": "The robotics club needs access to the automation lab after college hours.", "label": "LABORATORY"}
+{"text": "Welding shop exhaust system is clogged and the hall fills with smoke.", "label": "LABORATORY"}
+{"text": "Vernier calipers and micrometers are missing from the metrology lab kits.", "label": "LABORATORY"}
+{"text": "The heat transfer lab boiler has not been serviced this semester.", "label": "LABORATORY"}
+{"text": "Electrical machines lab motors overheat within minutes of starting.", "label": "LABORATORY"}
+{"text": "Glassware in the chemistry lab is chipped and dangerous to handle.", "label": "LABORATORY"}
+{"text": "The survey lab total station instrument battery does not hold charge.", "label": "LABORATORY"}
+{"text": "CAD software licenses in the design lab expired last month.", "label": "LABORATORY"}
+{"text": "The engine test rig in the automobile lab vibrates excessively and is unsafe.", "label": "LABORATORY"}
+{"text": "Required textbooks for the semester are not available in the library.", "label": "LIBRARY"}
+{"text": "The library barcode scanner does not detect student ID cards.", "label": "LIBRARY"}
+{"text": "Air conditioning in the reading hall has not worked all summer.", "label": "LIBRARY"}
+{"text": "There are not enough seats in the reading room during exam season.", "label": "LIBRARY"}
+{"text": "Library closing time is too early, extend it till 9 pm during exams.", "label": "LIBRARY"}
+{"text": "Book issue process takes weeks because staff say records are pending.", "label": "LIBRARY"}
+{"text": "Access to online journals and e-resources is blocked off campus.", "label": "LIBRARY"}
+{"text": "Students do not maintain silence in the reference section of the library.", "label": "LIBRARY"}
+{"text": "library me nayi books nahi aayi, syllabus wali books mil hi nahi rahi.", "label": "LIBRARY"}
+{"text": "Newspapers and magazines have not been updated in the periodical section.", "label": "LIBRARY"}
+{"text": "Library membership cards for first-year students are still not issued.", "label": "LIBRARY"}
+{"text": "The digital library computers are outdated and extremely slow.", "label": "LIBRARY"}
+{"text": "Photocopy shop inside the library remains closed most days.", "label": "LIBRARY"}
+{"text": "Previous years question papers are missing from the library archive.", "label": "LIBRARY"}
+{"text": "The library lift is out of order making upper floors hard to reach.", "label": "LIBRARY"}
+{"text": "Book return drop box outside the library is overflowing.", "label": "LIBRARY"}
+{"text": "Reference books cannot be issued even for a single day.", "label": "LIBRARY"}
+{"text": "The library catalogue search often shows wrong shelf locations.", "label": "LIBRARY"}
+{"text": "Drinking water facility inside the library building is not working.", "label": "LIBRARY"}
+{"text": "Group discussion room booking in the library is always shown as full.", "label": "LIBRARY"}
+{"text": "Late fine calculation on overdue books seems incorrect and too high.", "label": "LIBRARY"}
+{"text": "The newspaper reading area chairs are broken.", "label": "LIBRARY"}
+{"text": "Request more copies of competitive exam preparation books in the library.", "label": "LIBRARY"}
+{"text": "Back volumes of journals are dumped carelessly in the library basement.", "label": "LIBRARY"}
+{"text": "Lecture timetable has clashes, two core subjects are scheduled at the same time.", "label": "ACADEMIC"}
+{"text": "Syllabus for two subjects is still incomplete with exams starting next month.", "label": "ACADEMIC"}
+{"text": "The faculty member for mathematics has been absent for two consecutive weeks.", "label": "ACADEMIC"}
+{"text": "End semester examination schedule has not been announced yet.", "label": "ACADEMIC"}
+{"text": "Previous semester results are delayed by more than two months.", "label": "ACADEMIC"}
+{"text": "Promised elective subjects were removed without informing students.", "label": "ACADEMIC"}
+{"text": "Project guides have not been allotted to final year students yet.", "label": "ACADEMIC"}
+{"text": "Remedial classes for weak students were announced but never started.", "label": "ACADEMIC"}
+{"text": "sir class me padhate hi nahi hain, bas attendance lekar chale jaate hain.", "label": "ACADEMIC"}
+{"text": "Classrooms are overcrowded with more than eighty students in one section.", "label": "ACADEMIC"}
+{"text": "Internal assessment marks have not been shown to students before submission.", "label": "ACADEMIC"}
+{"text": "Guest lectures promised in the orientation have not happened even once.", "label": "ACADEMIC"}
+{"text": "The academic calendar keeps changing, confusing exam preparation plans.", "label": "ACADEMIC"}
+{"text": "Industrial visit for third year students got cancelled without explanation.", "label": "ACADEMIC"}
+{"text": "Library hours clash with evening lab sessions for our entire batch.", "label": "ACADEMIC"}
+{"text": "Backlog examination forms were rejected without giving any reason.", "label": "ACADEMIC"}
+{"text": "Scholarship forms need faculty signatures but nobody is available in the department.", "label": "ACADEMIC"}
+{"text": "The new elective on data science has no faculty assigned to teach it.", "label": "ACADEMIC"}
+{"text": "Answer scripts of the mid-semester exam were never shown for verification.", "label": "ACADEMIC"}
+{"text": "Placement training sessions overlap with regular classes every week.", "label": "ACADEMIC"}
+{"text": "Attendance shortage notices were sent to students who attended regularly.", "label": "ACADEMIC"}
+{"text": "The department has not organized any technical workshop this year.", "label": "ACADEMIC"}
+{"text": " Dissertation review meetings with the guide keep getting postponed.", "label": "ACADEMIC"}
+{"text": "Credits for the internship course are still not reflected in grade cards.", "label": "ACADEMIC"}
+{"text": "Mess food quality has dropped badly, students are finding insects in meals.", "label": "HOSTEL"}
+{"text": "Room allotment for second year students is delayed by almost a month.", "label": "HOSTEL"}
+{"text": "The hostel warden is never available when parents come to visit.", "label": "HOSTEL"}
+{"text": "Laundry service in the hostel has stopped without any prior notice.", "label": "HOSTEL"}
+{"text": "Hostel rooms need urgent repair, plaster and paint are peeling everywhere.", "label": "HOSTEL"}
+{"text": "Curfew timings for the girls hostel are too strict compared to boys hostel.", "label": "HOSTEL"}
+{"text": "Roommate allotment was done unfairly, requests for change are ignored.", "label": "HOSTEL"}
+{"text": "hostel mess ka khana bilkul kharab hai, roz same dal milti hai.", "label": "HOSTEL"}
+{"text": "Hostel fee receipts are not issued even after online payment.", "label": "HOSTEL"}
+{"text": "Common room television has not worked since the start of the semester.", "label": "HOSTEL"}
+{"text": "Hot water is unavailable in hostel bathrooms during winter mornings.", "label": "HOSTEL"}
+{"text": "The hostel mess menu is never followed, same items repeat every day.", "label": "HOSTEL"}
+{"text": "Visitors are not allowed inside the hostel even during daytime.", "label": "HOSTEL"}
+{"text": "Hostel gates close too early, students returning from library get stuck outside.", "label": "HOSTEL"}
+{"text": "Complaints registered in the hostel complaint book are never addressed.", "label": "HOSTEL"}
+{"text": "The hostel study room lights stay on all night disturbing sleep schedules.", "label": "HOSTEL"}
+{"text": "New hostel block construction noise continues late into the night.", "label": "HOSTEL"}
+{"text": "Drinking water coolers on hostel floors are often empty.", "label": "HOSTEL"}
+{"text": "Hostel corridors are noisy till midnight, no warden takes rounds.", "label": "HOSTEL"}
+{"text": " beds and mattresses in the hostel rooms are old and uncomfortable.", "label": "HOSTEL"}
+{"text": "The hostel mess bill calculation seems wrong this month.", "label": "HOSTEL"}
+{"text": "Power cuts in the hostel last for hours with no backup arrangement.", "label": "HOSTEL"}
+{"text": "Indoor games equipment in the hostel common room is broken.", "label": "HOSTEL"}
+{"text": "Vacating procedures at semester end are chaotic with long queues.", "label": "HOSTEL"}
+{"text": "The college bus on route 3 has not arrived for the last two days.", "label": "TRANSPORT"}
+{"text": "Buses are always late in the morning, students miss the first lecture daily.", "label": "TRANSPORT"}
+{"text": "The bus broke down midway yesterday and no replacement was arranged.", "label": "TRANSPORT"}
+{"text": "Buses are dangerously overcrowded with students standing on footboards.", "label": "TRANSPORT"}
+{"text": "The bus driver drives rashly and ignores speed limits inside the city.", "label": "TRANSPORT"}
+{"text": "Bus pass renewal counter stays closed during the announced hours.", "label": "TRANSPORT"}
+{"text": "Evening shuttle frequency is too low, students wait for over an hour.", "label": "TRANSPORT"}
+{"text": "bus do din se nahi aa rahi, exam ke time bahut problem ho rahi hai.", "label": "TRANSPORT"}
+{"text": "Transport fees were collected but the bus facility never started on our route.", "label": "TRANSPORT"}
+{"text": "There is no shelter at the highway bus stop, students stand in rain and sun.", "label": "TRANSPORT"}
+{"text": "Request to extend the bus route to cover the new housing colony area.", "label": "TRANSPORT"}
+{"text": "The college van for industrial visits is always unavailable when booked.", "label": "TRANSPORT"}
+{"text": "Bus conductors behave rudely with students asking for stops.", "label": "TRANSPORT"}
+{"text": "GPS tracking of college buses promised last year is still not enabled.", "label": "TRANSPORT"}
+{"text": "The last bus leaves too early, evening lab students cannot use transport.", "label": "TRANSPORT"}
+{"text": "Bus seats are torn and leg space is insufficient for tall students.", "label": "TRANSPORT"}
+{"text": "A new bus stop is needed near the girls hostel main road.", "label": "TRANSPORT"}
+{"text": "Transport office does not respond to complaints about missed buses.", "label": "TRANSPORT"}
+{"text": "Private autos overcharge students outside the college gate every day.", "label": "TRANSPORT"}
+{"text": "The bus timetable displayed at stops does not match actual timings.", "label": "TRANSPORT"}
+{"text": "College buses skip the railway station stop during morning trips.", "label": "TRANSPORT"}
+{"text": "Air conditioning in the staff bus has never worked.", "label": "TRANSPORT"}
+{"text": "Emergency exits in college buses are blocked by luggage racks.", "label": "TRANSPORT"}
+{"text": "Old buses emit thick black smoke and need pollution checks.", "label": "TRANSPORT"}
+{"text": "There is no water coming from the drinking water unit near the library.", "label": "WATER_SANITATION"}
+{"text": "Water cooler on the second floor is not cooling at all.", "label": "WATER_SANITATION"}
+{"text": "Hostel bathrooms have had no water supply since yesterday morning.", "label": "WATER_SANITATION"}
+{"text": "Tap water in the canteen tastes muddy and looks yellowish.", "label": "WATER_SANITATION"}
+{"text": "Sewage water is overflowing near the boys hostel entrance.", "label": "WATER_SANITATION"}
+{"text": "The main water pipeline near the playground is leaking heavily.", "label": "WATER_SANITATION"}
+{"text": "RO purifier in the academic block has not been serviced for months.", "label": "WATER_SANITATION"}
+{"text": "paani ka cooler kharab hai, peene ka paani nahi mil raha hai.", "label": "WATER_SANITATION"}
+{"text": "Water supply timings in the hostel are irregular and too short.", "label": "WATER_SANITATION"}
+{"text": "Blocked drains near the mess cause dirty water to collect everywhere.", "label": "WATER_SANITATION"}
+{"text": "Flush tanks in the ground floor washrooms do not work.", "label": "WATER_SANITATION"}
+{"text": "Overhead water tank cleaning has not happened this entire year.", "label": "WATER_SANITATION"}
+{"text": "Low water pressure on upper floors makes bathrooms unusable.", "label": "WATER_SANITATION"}
+{"text": "The chemistry lab sink drainage is blocked and water overflows.", "label": "WATER_SANITATION"}
+{"text": "Stagnant sewage behind the canteen is spreading a terrible smell.", "label": "WATER_SANITATION"}
+{"text": "Borewell motor keeps failing, the whole campus faces shortage every week.", "label": "WATER_SANITATION"}
+{"text": "Rain water harvesting pits are clogged and overflowing onto the road.", "label": "WATER_SANITATION"}
+{"text": "The girls hostel gets water only twice a day for one hour.", "label": "WATER_SANITATION"}
+{"text": "Leakage in the washroom ceiling drips continuously on the floor.", "label": "WATER_SANITATION"}
+{"text": "New water purifiers sanctioned last year were never installed.", "label": "WATER_SANITATION"}
+{"text": "The swimming pool filtration plant is broken and water looks green.", "label": "WATER_SANITATION"}
+{"text": "Septic tank near the staff quarters is overflowing into the lane.", "label": "WATER_SANITATION"}
+{"text": "Garden sprinklers run all day wasting thousands of litres of water.", "label": "WATER_SANITATION"}
+{"text": "Hot water geysers in the hostel bathrooms are all out of order.", "label": "WATER_SANITATION"}
+{"text": "I lost my student ID card near the auditorium yesterday.", "label": "OTHER"}
+{"text": "Degree certificate issuance is delayed by six months after convocation.", "label": "OTHER"}
+{"text": "Fee receipt shows wrong amount even though full payment was made online.", "label": "OTHER"}
+{"text": "Scholarship application status has shown pending for three months.", "label": "OTHER"}
+{"text": "The robotics club needs funding approval for the national competition.", "label": "OTHER"}
+{"text": "Placement cell has not shared the interview schedule for visiting companies.", "label": "OTHER"}
+{"text": "Request permission to organize the annual cultural fest in March.", "label": "OTHER"}
+{"text": "Parking stickers for student vehicles are not being issued this semester.", "label": "OTHER"}
+{"text": "Stationery shop inside the campus remains closed during working hours.", "label": "OTHER"}
+{"text": "ATM near the main gate is out of service most of the time.", "label": "OTHER"}
+{"text": "Bonafide certificate requests take more than two weeks to process.", "label": "OTHER"}
+{"text": "The alumni meet announcement came only a day before the event.", "label": "OTHER"}
+{"text": "Courier parcels addressed to hostel students are not delivered properly.", "label": "OTHER"}
+{"text": "Bank branch on campus refuses to open student savings accounts.", "label": "OTHER"}
+{"text": "Lost and found section in the admin office never returns recovered items.", "label": "OTHER"}
+{"text": "NSS camp certificates from last year are still not distributed.", "label": "OTHER"}
+{"text": "The gymnasium trainer is absent most evenings.", "label": "OTHER"}
+{"text": "Photocopy rates at the campus shop are double the market price.", "label": "OTHER"}
+{"text": "Canteen contractor overcharges for basic items against the approved rate list.", "label": "OTHER"}
+{"text": "The grievance redressal portal never sends acknowledgement of complaints.", "label": "OTHER"}
+{"text": "Sports day events were cancelled without informing participating students.", "label": "OTHER"}
+{"text": "The campus bookstore does not stock the prescribed reference books.", "label": "OTHER"}
+{"text": "WiFi recharge coupons sold at the kiosk often turn out to be invalid.", "label": "OTHER"}
+{"text": "Night canteen facility announced last month has not started yet.", "label": "OTHER"}

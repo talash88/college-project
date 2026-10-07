@@ -1,0 +1,94 @@
+# Step 17: production-style local stack — postgres (pgvector) + backend + frontend.
+#
+# The developer workflow in docker-compose.yml (bare postgres for local coding)
+# is untouched. This file is for production-parity verification and demos:
+#
+#   JWT_SECRET_KEY="$(python3 -c 'import secrets; print(secrets.token_urlsafe(48))')" \
+#     docker compose -f docker-compose.prod.yml up --build
+#
+# Frontend: http://localhost:3000   Backend: http://localhost:8000
+#
+# Secrets are NEVER hardcoded here: JWT_SECRET_KEY has no default and the
+# backend refuses to boot in production without a strong one (see
+# backend/app/core/config.py). Mounts:
+# - pgdata: durable postgres data
+# - backend uploads: durable problem attachments (never ephemeral-only)
+# - backend ml artifacts: local classifier weights (gitignored 256 MB file)
+# - backend HF cache: persistent sentence-transformers downloads
+name: campusxolve-prod
+
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: campusxolve-prod-postgres
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-campusxolve}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-campusxolve}
+      POSTGRES_DB: ${POSTGRES_DB:-campusxolve}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-campusxolve} -d ${POSTGRES_DB:-campusxolve}"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+    restart: unless-stopped
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: campusxolve-prod-backend
+    environment:
+      ENVIRONMENT: production
+      DEBUG: "false"
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+      API_HOST: 0.0.0.0
+      API_PORT: 8000
+      DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-campusxolve}:${POSTGRES_PASSWORD:-campusxolve}@postgres:5432/${POSTGRES_DB:-campusxolve}
+      JWT_SECRET_KEY: ${JWT_SECRET_KEY:?JWT_SECRET_KEY is required - generate with secrets.token_urlsafe(48)}
+      FRONTEND_URL: ${FRONTEND_URL:-http://localhost:3000}
+      CORS_ORIGINS: ${CORS_ORIGINS:-["http://localhost:3000"]}
+      FORWARDED_ALLOW_IPS: ${FORWARDED_ALLOW_IPS:-127.0.0.1}
+    volumes:
+      - backend-uploads:/app/storage/problem-attachments
+      - backend-hfcache:/app/.cache/huggingface
+      # Local classifier weights (gitignored). Omit on cloud and provide via
+      # the documented training step instead (see docs/STEP_17_DEPLOYMENT.md).
+      - ./backend/ml/artifacts:/app/ml/artifacts:ro
+    ports:
+      - "${BACKEND_PORT:-8000}:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://127.0.0.1:8000/api/v1/health | grep -q '\"status\":\"healthy\"'"]
+      interval: 15s
+      timeout: 5s
+      retries: 6
+      start_period: 60s
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+      args:
+        NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-http://localhost:8000}
+    container_name: campusxolve-prod-frontend
+    environment:
+      PORT: 3000
+    ports:
+      - "${FRONTEND_PORT:-3000}:3000"
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  pgdata:
+    name: campusxolve-prod-pgdata
+  backend-uploads:
+    name: campusxolve-prod-uploads
+  backend-hfcache:
+    name: campusxolve-prod-hfcache

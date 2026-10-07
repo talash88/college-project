@@ -1,0 +1,113 @@
+# CampusXolve AI - .gitignore
+
+# Environment files
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+*.pyc
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.lerna-debug.log*
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Docker
+.docker/
+
+# Logs
+logs/
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Test coverage
+htmlcov/
+.coverage
+
+# Build artifacts
+*.egg-info/
+dist/
+build/
+
+# ML: Hugging Face cache, transient checkpoints, large weight files.
+# Keep project metadata/config (label_map.json, train_config.json,
+# metadata.json, metrics*.json) — retrain with scripts/train_classifier.py.
+.cache/huggingface/
+.huggingface/
+backend/ml/artifacts/**/model.safetensors
+backend/ml/artifacts/**/*.bin
+backend/ml/artifacts/**/checkpoint-*/
+backend/ml/artifacts/**/runs/
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+# Additional CampusXolve safety rules
+
+**/.env
+**/.env.*
+!**/.env.example
+
+.ruff_cache/
+
+backend/storage/**
+!backend/storage/.gitkeep
+
+*.dump
+*.backup
+
+*.safetensors
+pytorch_model.bin
+
+**/*.tsbuildinfo
+
+tmp/
+temp/
